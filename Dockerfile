@@ -1,4 +1,4 @@
-FROM verdaccio/verdaccio:4.0.2
+FROM verdaccio/verdaccio:4.1.0
 
 USER root
 ARG plugins="verdaccio-audit verdaccio-s3-storage verdaccio-bitbucket"
